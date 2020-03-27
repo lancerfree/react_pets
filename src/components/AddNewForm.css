@@ -1,0 +1,45 @@
+.add-new-form {
+  display: inline-block;
+}
+
+.add-new-form__text-block >* {
+  float: left;
+}
+
+.add-new-form__pet-block_right {
+  padding: 10px;
+  min-width: 400px;
+}
+
+.add-new-form__pet-block_right input,
+.add-new-form__pet-block_right select {
+  width: 70%;
+}
+
+.add-new-form__text-block [for=pet_description],
+.add-new-form__text-block [name=pet_description],
+.add-new-form__text-block .pet-submit-button,
+.add-new-form__text-block [for=pet_name],
+.add-new-form__text-block [for=pet_color],
+.add-new-form__text-block [name=pet_name],
+.add-new-form__text-block [name=pet_color] {
+  clear: left;
+  margin-top: 3px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.add-new-form__text-block .pet-submit-button,
+.add-new-form__text-block [for=pet_description],
+.add-new-form__text-block [name=pet_description] {
+  margin-left: 3px;
+}
+
+.add-new-form__text-block [name=pet_description] {
+  height: 80px;
+  width: 520px;
+}
+
+
+
+/*# sourceMappingURL=AddNewForm.css.map */

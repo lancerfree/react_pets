@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/pets/static/css/main.css",
+    "main.js": "/pets/static/js/main.js",
+    "main.js.map": "/pets/static/js/main.js.map",
+    "index.html": "/pets/index.html",
+    "precache-manifest.b1184bccce0356712e912fbba991f338.js": "/pets/precache-manifest.b1184bccce0356712e912fbba991f338.js",
+    "service-worker.js": "/pets/service-worker.js",
+    "static/css/main.css.map": "/pets/static/css/main.css.map",
+    "static/js/main.js.LICENSE.txt": "/pets/static/js/main.js.LICENSE.txt",
+    "static/media/drupal-logo2.png": "/pets/static/media/drupal-logo2.e496ef1d.png",
+    "static/media/all.css": "/pets/static/media/fa-solid-900.cdfec5cf.woff",
+    "static/media/react.jpg": "/pets/static/media/react.40792904.jpg"
+  },
+  "entrypoints": [
+    "static/css/main.css",
+    "static/js/main.js"
+  ]
+}

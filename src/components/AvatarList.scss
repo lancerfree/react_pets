@@ -1,0 +1,7 @@
+.avatar-list .avatar {
+  float: left;
+}
+
+.avatar-list .avatar:nth-child(8) {
+  clear: left;
+}

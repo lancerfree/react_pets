@@ -1,0 +1,29 @@
+
+.pets-logo {
+  width: 522px;
+  border: 3px solid black;
+  margin: 2px;
+}
+
+.pets-logo > * {
+  float: left;
+
+}
+
+.pets-logo__react {
+  width: 40%;
+}
+
+.pets-logo__drupal {
+  width: 36%;
+  background-color: #61dafb;
+  float: right;
+}
+
+.pets-logo__divider {
+  font-size: 72px;
+  width: 24%;
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+}

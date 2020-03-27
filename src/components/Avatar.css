@@ -1,0 +1,28 @@
+.avatar {
+  cursor: pointer;
+  display: inline-block;
+  margin: 2px;
+  background-color: #61dafb;
+}
+
+.avatar_border-red {
+  border: 3px solid red;
+}
+
+.avatar_border-green {
+  border: 3px solid green;
+}
+
+.avatar_border-yellow {
+  border: 3px solid yellow;
+}
+
+.avatar .hover-style-default:hover {
+  border-color: #00FF00 !important;
+}
+
+.avatar__icon-wrapper {
+  padding: 3px;
+}
+
+/*# sourceMappingURL=Avatar.css.map */
