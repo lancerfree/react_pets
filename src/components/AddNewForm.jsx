@@ -10,10 +10,10 @@ class AddNewForm extends Component {
         super(props)
         this.state = {
             colorList: props.vars.colorList,
-            petImageClass: null,
-            petNameText: null,
+            petImageClass: 'fa-cat',
+            petNameText: '',
             petDescriptionText: '',
-            petColor: null,
+            petColor: '',
         }
 
         const self = this;
@@ -37,7 +37,7 @@ class AddNewForm extends Component {
                     onClickHandler={() => {
                     }}
                 />
-                <div class={'add-new-form__pet-block_right'}>
+                <div className={'add-new-form__pet-block_right'}>
                     <label htmlFor="pet_name">Put pet name:&nbsp;<span>{this.state.petNameText}</span></label>
                     <input type="text" maxLength={25} value={this.state.petNameText}
                            onChange={(event) => {
@@ -45,15 +45,15 @@ class AddNewForm extends Component {
                            }}
                            name={'pet_name'}/>
                     <label htmlFor="pet_color">Select pet color:&nbsp;<span>{colors[this.state.petColor]}</span></label>
-                    <select className={'pet_color'} name={'pet_color'}
+                    <select  className={'pet_color'} name={'pet_color'}
                             value={this.state.petColor}
                             onChange={(event) => {
                                 this.setState({petColor: event.target.value});
                             }}
                     >
-                        <option disabled selected value> -- select a color --</option>
+                        <option value="" disabled key={""}> -- select a color --</option>
                         {Object.keys(colors).map(function (i, index) {
-                                return <option value={i}>{colors[i]}</option>;
+                                return <option value={i} key={i}>{colors[i]}</option>;
                             }
                         )
                         }
@@ -66,6 +66,7 @@ class AddNewForm extends Component {
                     this.setState({petDescriptionText: e.target.value});
                 }}/>
                 <button className={'pet-submit-button'}
+                        onClick={(e)=>(this.props.handlers.showResult||(()=>{console.log('inner')}))(this,e)}
                 >Add Pet
                 </button>
             </div>
