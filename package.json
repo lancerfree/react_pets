@@ -13,7 +13,7 @@
     "axios": "^0.19.2",
     "d8-subrequests": "0.0.5",
     "font-awesome": "^4.7.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-fontawesome": "^1.7.1",
